@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+* {
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.panda-btn-buy-now {
+    background-color: coral;
+    border-style: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: cornsilk;
+    transition: 1s;
+}
+
+.panda-btn-buy-now:hover {
+    background-color: rgb(255, 0, 0);
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+.logo, .rotate {
+    animation: animation-logo 10s linear infinite;
+}
+
+@keyframes animation-logo {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
